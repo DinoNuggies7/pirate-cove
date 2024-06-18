@@ -11,6 +11,11 @@ body {
 	font-family: "Minecraft";
 }
 
+p {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
 a {
 	text-decoration: none;
 }
