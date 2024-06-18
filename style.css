@@ -1,0 +1,36 @@
+body {
+	background-image: url("res/brick.png");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: 128px;
+	image-rendering: pixelated;
+  animation: scrollBackground 5s linear infinite;
+
+	text-align: center;
+	color: white;
+	font-family: "Minecraft";
+}
+
+h2 {
+	font-size: 50px;
+}
+
+img {
+	height: 256px;
+}
+
+@keyframes scrollBackground {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 127px 127px;
+	}
+}
+
+@font-face {
+	font-family: "Minecraft";
+	src: url("font.woff") format(woff);
+	font-weight: normal;
+	font-style: normal;
+}
