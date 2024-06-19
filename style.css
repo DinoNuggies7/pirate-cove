@@ -37,6 +37,22 @@ h2 {
 	height: 256px;
 }
 
+.n64 {
+	height: 256px;
+}
+
+.gamecube {
+	width: 300px;
+}
+
+.gameboy {
+	width: 300px;
+}
+
+.ds {
+	width: 300px;
+}
+
 img {
 	transition: transform 0.3s ease;
 }
@@ -56,7 +72,7 @@ img:hover {
 
 @font-face {
 	font-family: "Minecraft";
-	src: url("font.woff") format(woff);
+	src: url("res/font.woff") format(woff);
 	font-weight: normal;
 	font-style: normal;
 }
