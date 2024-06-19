@@ -29,6 +29,22 @@ h2 {
 	margin-top: 100px;
 }
 
+#toc {
+	position: fixed;
+	top: -14px;
+	left: -32px;
+	list-style-type: none;
+}
+
+#toc li {
+	margin-top: 6px;
+}
+
+#toc a {
+	text-decoration: none;
+	color: #FFF;
+}
+
 .nes {
 	width: 256px;
 }
